@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Prod</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-api.myoptions.org/users/179217/checklist_items/'</initValue>
+      <name>G_API_URL_CHECKLIST_GET</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

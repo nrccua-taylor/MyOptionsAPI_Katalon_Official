@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC5_ChecklistAPI_DeleteNotes</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>23955789</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>TC5_ChecklistAPI_DeleteNotes</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5404665</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-94</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>31203610</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>b417ef7d-5471-4caf-b597-1e623dfb4313</testCaseGuid>
+</TestCaseEntity>
