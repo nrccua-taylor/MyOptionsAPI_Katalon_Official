@@ -51,22 +51,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://staging-api.myoptions.org/auth/local'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/auth/local'</initValue>
       <name>G_API_URL_LOGIN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://staging-api.myoptions.org/auth/join'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/auth/join'</initValue>
       <name>G_API_URL_SIGNUP</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://staging-api.myoptions.org/users/179217/checklist_items/'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/users/179217/checklist_items/'</initValue>
       <name>G_API_URL_CHECKLIST_GET</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://staging-api.myoptions.org/users/179217/checklist_items/118'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/users/179217/checklist_items/118'</initValue>
       <name>G_API_URL_CHECKLIST_PUT</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -86,17 +86,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://staging-api.myoptions.org/auth/reset_password'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/auth/reset_password'</initValue>
       <name>G_API_URL_ResetPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://staging-api.myoptions.org/auth/change_password'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/auth/change_password'</initValue>
       <name>G_API_URL_ChangePassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://staging-api.myoptions.org/auth/verify_email'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/auth/verify_email'</initValue>
       <name>G_API_URL_VerifyEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -106,7 +106,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://staging-api.myoptions.org/users/179217/schools'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/users/179217/schools'</initValue>
       <name>G_API_URL_USER_SCHOOL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

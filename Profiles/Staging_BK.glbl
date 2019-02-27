@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>Dev2</name>
+   <name>Staging_BK</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
-      <description>QA Dev Environment</description>
-      <initValue>'https://development-api2.myoptions.org'</initValue>
+      <description>QA Staging Environment</description>
+      <initValue>'https://staging-api.myoptions.org'</initValue>
       <name>G_API_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,22 +46,27 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://development-api2.myoptions.org/v2/auth/local'</initValue>
+      <initValue>findTestData('Staging')</initValue>
+      <name>G_Test_Data_Staging</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-api.myoptions.org/v2/auth/local'</initValue>
       <name>G_API_URL_LOGIN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://development-api2.myoptions.org/v2/auth/join'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/auth/join'</initValue>
       <name>G_API_URL_SIGNUP</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://development-api2.myoptions.org/v2/users/179217/checklist_items/'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/users/179217/checklist_items/'</initValue>
       <name>G_API_URL_CHECKLIST_GET</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://development-api2.myoptions.org/v2/users/179217/checklist_items/118'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/users/179217/checklist_items/118'</initValue>
       <name>G_API_URL_CHECKLIST_PUT</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,37 +76,37 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'nrccua.registration@nrccua.org'</initValue>
+      <initValue>'taylor.sablowsky@nrccua.org'</initValue>
       <name>G_SignUp_Student_Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Qaautomationfirstname'</initValue>
+      <initValue>'Taylor'</initValue>
       <name>G_SignUp_Student_FirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://development-api2.myoptions.org/v2/auth/reset_password'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/auth/reset_password'</initValue>
       <name>G_API_URL_ResetPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://development-api2.myoptions.org/v2/auth/change_password'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/auth/change_password'</initValue>
       <name>G_API_URL_ChangePassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://development-api2.myoptions.org/v2/auth/verify_email'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/auth/verify_email'</initValue>
       <name>G_API_URL_VerifyEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Createdviakatalon'</initValue>
+      <initValue>'Sablowsky'</initValue>
       <name>G_SignUp_Student_LastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://development-api2.myoptions.org/v2/users/179217/schools'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/users/179217/schools'</initValue>
       <name>G_API_URL_USER_SCHOOL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -131,17 +136,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'nrccua.registration+2020@nrccua.org'</initValue>
+      <initValue>'nrccua.registration+2019@nrccua.org'</initValue>
       <name>G_SignUp_StudentCorrect_Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Devtwo'</initValue>
+      <initValue>'Staging'</initValue>
       <name>G_SignUp_StudentCorrect_FirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'CreatedviaKatalonAPI'</initValue>
+      <initValue>'CreatedViaKatalonAPI'</initValue>
       <name>G_SignUp_StudentCorrect_LastName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
