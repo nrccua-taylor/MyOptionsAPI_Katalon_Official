@@ -149,4 +149,9 @@
       <initValue>'CreatedViaKatalonAPI'</initValue>
       <name>G_SignUp_StudentCorrect_LastName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'GIT'</initValue>
+      <name>GIT</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
