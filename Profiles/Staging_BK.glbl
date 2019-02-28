@@ -151,7 +151,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'CHANGED'</initValue>
+      <initValue>'CHANGEDYETAGAIN'</initValue>
       <name>GIT</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
