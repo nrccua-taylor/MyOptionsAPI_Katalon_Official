@@ -34,7 +34,8 @@
 {&quot;name&quot;:&quot;TC13_VerifyEmailAPI_MissingEmail&quot;,&quot;qTestCaseId&quot;:24026504,&quot;pid&quot;:&quot;TR-331&quot;,&quot;id&quot;:47351365},
 {&quot;name&quot;:&quot;TC14_VerfiyEmailAPI_MissingFirstName&quot;,&quot;qTestCaseId&quot;:24026505,&quot;pid&quot;:&quot;TR-332&quot;,&quot;id&quot;:47351366},
 {&quot;name&quot;:&quot;TC15_VerifyEmailAPI_MissingLastName&quot;,&quot;qTestCaseId&quot;:24026506,&quot;pid&quot;:&quot;TR-333&quot;,&quot;id&quot;:47351370},
-{&quot;name&quot;:&quot;TC1_SignUp_StudentCorrect&quot;,&quot;qTestCaseId&quot;:24052427,&quot;pid&quot;:&quot;TR-334&quot;,&quot;id&quot;:47351371}]}</value>
+{&quot;name&quot;:&quot;TC1_SignUp_StudentCorrect&quot;,&quot;qTestCaseId&quot;:24052427,&quot;pid&quot;:&quot;TR-334&quot;,&quot;id&quot;:47351371},
+{&quot;name&quot;:&quot;TC1_SignUp_StudentCorrect_TimeStamp&quot;,&quot;qTestCaseId&quot;:24153824,&quot;pid&quot;:&quot;TR-336&quot;,&quot;id&quot;:47396530}]}</value>
          </entry>
       </properties>
       <type>TESTSUITE</type>
@@ -46,6 +47,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>aeec904b-427e-4b1a-b8f5-0c732dd02230</testSuiteGuid>
+   <testCaseLink>
+      <guid>df561091-9f4f-42f7-8ddb-f0b714f6c3f4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SignUp/TC1_SignUp_StudentCorrect_TimeStamp</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>cb19297e-b319-4c35-a4c2-1bcf8d6b5c82</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -207,11 +214,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/UserMgmt/TC15_VerifyEmailAPI_MissingLastName</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1664ba84-353c-4cbf-8dd2-21f9d4fa4837</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SignUp/TC1_SignUp_StudentCorrect</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

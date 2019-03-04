@@ -15,8 +15,17 @@ import internal.GlobalVariable as GlobalVariable
 import groovy.time.TimeCategory
 
 
+//Creating a local variable to store the email address + the nanotime of system 
+String TimeStampEmailAddress = "nrccua.welcomeemail+" + System.nanoTime() + "@gmail.com";
 
-WS.sendRequestAndVerify(findTestObject('Helpers/SignUp/SignUp_StudentUserCorrect', [('G_API_URL_SIGNUP') : GlobalVariable.G_API_URL_SIGNUP
-            , ('G_SignUp_StudentCorrect_FirstName') : GlobalVariable.G_SignUp_StudentCorrect_FirstName, ('G_SignUp_StudentCorrect_Email') : GlobalVariable.G_SignUp_StudentCorrect_Email
+// print the email address out for reference if needed, prints in console
+System.out.println(TimeStampEmailAddress);
+
+//set the local variable to a global variable for the timestamp email email address
+GlobalVariable.G_TimeStampEmailAddress = TimeStampEmailAddress
+
+//execute the test with the timestamp email address. 
+WS.sendRequestAndVerify(findTestObject('Helpers/SignUp/SignUp_StudentUserCorrectTimeStamp', [('G_API_URL_SIGNUP') : GlobalVariable.G_API_URL_SIGNUP
+            , ('G_SignUp_StudentCorrect_FirstName') : GlobalVariable.G_SignUp_StudentCorrect_FirstName, ('G_TimeStampEmailAddress') : GlobalVariable.G_TimeStampEmailAddress
             , ('G_SignUp_StudentCorrect_LastName') : GlobalVariable.G_SignUp_StudentCorrect_LastName]))
 

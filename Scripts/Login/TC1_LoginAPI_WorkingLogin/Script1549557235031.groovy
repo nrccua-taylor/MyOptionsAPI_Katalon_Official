@@ -23,6 +23,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WS.sendRequestAndVerify(findTestObject('Helpers/Login/Helper_MO_Login', [('G_Login_Username') : GlobalVariable.G_Login_Username_MO
+
+//Step 1  response1 will sent Login API with the Global Variable for  MO Username / Password
+
+response1 = WS.sendRequestAndVerify(findTestObject('Helpers/Login/Helper_MO_Login', [('G_Login_Username') : GlobalVariable.G_Login_Username_MO
             , ('G_Login_Password') : GlobalVariable.G_Login_Password_MO, ('G_API_URL_LOGIN') : GlobalVariable.G_API_URL_LOGIN]))
+
+
+//Step 2 the jsonSlurper will look at the response of the Login API called above and save the bearer token
+
+def response2 = new groovy.json.JsonSlurper().parseText(response1.getResponseText())
+
+def bearerToken = response2.bearer_token
+
+//step 3  set the Global Variable G_BearerToken as the bearertoken
+
+GlobalVariable.G_BearerToken = bearerToken
+
+
 

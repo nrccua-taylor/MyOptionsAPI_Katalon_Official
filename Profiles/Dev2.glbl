@@ -144,4 +144,9 @@
       <initValue>'CreatedviaKatalonAPI'</initValue>
       <name>G_SignUp_StudentCorrect_LastName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_TimeStampEmailAddress</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

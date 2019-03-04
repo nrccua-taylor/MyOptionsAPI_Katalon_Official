@@ -34,7 +34,8 @@
 {&quot;name&quot;:&quot;TC13_VerifyEmailAPI_MissingEmail&quot;,&quot;qTestCaseId&quot;:24026504,&quot;pid&quot;:&quot;TR-305&quot;,&quot;id&quot;:47351317},
 {&quot;name&quot;:&quot;TC14_VerfiyEmailAPI_MissingFirstName&quot;,&quot;qTestCaseId&quot;:24026505,&quot;pid&quot;:&quot;TR-306&quot;,&quot;id&quot;:47351318},
 {&quot;name&quot;:&quot;TC15_VerifyEmailAPI_MissingLastName&quot;,&quot;qTestCaseId&quot;:24026506,&quot;pid&quot;:&quot;TR-307&quot;,&quot;id&quot;:47351319},
-{&quot;name&quot;:&quot;TC1_SignUp_StudentCorrect&quot;,&quot;qTestCaseId&quot;:24052427,&quot;pid&quot;:&quot;TR-308&quot;,&quot;id&quot;:47351320}]}</value>
+{&quot;name&quot;:&quot;TC1_SignUp_StudentCorrect&quot;,&quot;qTestCaseId&quot;:24052427,&quot;pid&quot;:&quot;TR-308&quot;,&quot;id&quot;:47351320},
+{&quot;name&quot;:&quot;TC1_SignUp_StudentCorrect_TimeStamp&quot;,&quot;qTestCaseId&quot;:24153824,&quot;pid&quot;:&quot;TR-335&quot;,&quot;id&quot;:47396527}]}</value>
          </entry>
       </properties>
       <type>TESTSUITE</type>
@@ -46,6 +47,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>a06c7623-63a4-45e6-8ae0-f605f9e6f2a8</testSuiteGuid>
+   <testCaseLink>
+      <guid>622c2f08-b74a-4e6e-93cf-f64b29558dc6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SignUp/TC1_SignUp_StudentCorrect_TimeStamp</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>ba193801-48ca-4854-a677-6cbb79f8a98c</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -63,12 +70,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/TC3_LoginAPI_IncorrectUsername</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c79a8221-f581-4131-8ec9-dfae357afc41</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BearerToken/TC_X_BearerTokenRefresh</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e5b08305-3978-4246-9b5e-7c8606b629a5</guid>
@@ -207,11 +208,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/UserMgmt/TC15_VerifyEmailAPI_MissingLastName</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c77eb125-c995-4b17-bb05-21c8d0bd4673</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SignUp/TC1_SignUp_StudentCorrect</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
