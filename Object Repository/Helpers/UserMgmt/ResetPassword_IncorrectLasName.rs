@@ -22,39 +22,32 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${G_API_URL_ResetPassword}?</restUrl>
+   <restUrl>${G_API_URL_resetPassword}?</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>GlobalVariable.G_API_URL_ResetPassword</defaultValue>
+      <defaultValue>GlobalVariable.G_API_URL_resetPassword</defaultValue>
       <description></description>
       <id>5f159004-b59c-463d-9abe-4040a1cf4a72</id>
       <masked>false</masked>
-      <name>G_API_URL_ResetPassword</name>
+      <name>G_API_URL_resetPassword</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.G_SignUp_Student_LastName</defaultValue>
-      <description></description>
-      <id>5394ed35-0a44-4226-9668-da17edea5ff6</id>
-      <masked>false</masked>
-      <name>G_SignUp_Student_LastName</name>
-   </variables>
-   <variables>
-      <defaultValue>GlobalVariable.G_SignUp_Student_FirstName</defaultValue>
+      <defaultValue>GlobalVariable.G_resetPassword_Student_firstName</defaultValue>
       <description></description>
       <id>b9548b45-c734-4bb9-9119-26256a84e327</id>
       <masked>false</masked>
-      <name>G_SignUp_Student_FirstName</name>
+      <name>G_resetPassword_Student_firstName</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.G_SignUp_Student_Email</defaultValue>
+      <defaultValue>GlobalVariable.G_resetPassword_Student_Email</defaultValue>
       <description></description>
       <id>c0e2efc0-af5e-4205-ac0e-5124407237d6</id>
       <masked>false</masked>
-      <name>G_SignUp_Student_Email</name>
+      <name>G_resetPassword_Student_Email</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

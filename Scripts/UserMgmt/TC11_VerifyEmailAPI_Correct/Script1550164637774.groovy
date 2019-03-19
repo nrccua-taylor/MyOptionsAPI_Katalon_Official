@@ -13,8 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WS.sendRequestAndVerify(findTestObject('Helpers/UserMgmt/VerifyEmail_Correct', [('G_API_URL_VerifyEmail') : GlobalVariable.G_API_URL_VerifyEmail
-            , ('G_AOSuser_Email') : GlobalVariable.G_AOSuser_Email, ('G_AOSuser_PasswordToken') : GlobalVariable.G_AOSuser_PasswordToken
-            , ('G_AOSuser_NewPassword') : GlobalVariable.G_AOSuser_NewPassword, ('G_AOSuser_FirstName') : GlobalVariable.G_AOSuser_FirstName
-            , ('G_AOSuser_LastName') : GlobalVariable.G_AOSuser_LastName]))
+WS.sendRequestAndVerify(findTestObject('Helpers/UserMgmt/VerifyEmail_Correct', [('G_API_URL_verifyEmail') : GlobalVariable.G_API_URL_verifyEmail
+            , ('G_aosUser_Email') : GlobalVariable.G_aosUser_Email, ('G_aosUser_passwordToken') : GlobalVariable.G_aosUser_passwordToken
+            , ('G_aosUser_newPassword') : GlobalVariable.G_aosUser_newPassword, ('G_aosUser_firstName') : GlobalVariable.G_aosUser_firstName
+            , ('G_aosUser_lastName') : GlobalVariable.G_aosUser_lastName]))
+
+
 

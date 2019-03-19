@@ -31,26 +31,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'xxxxxxxx'</initValue>
-      <name>G_Login_IncorrectPassword</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'xxxxxxxx'</initValue>
-      <name>G_Login_IncorrectUsername</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>0</initValue>
-      <name>G_UpdatedIncrement</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>findTestData('Staging')</initValue>
-      <name>G_Test_Data_Staging</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'https://staging-api.myoptions.org/v2/auth/local'</initValue>
       <name>G_API_URL_LOGIN</name>
    </GlobalVariableEntity>
@@ -77,32 +57,32 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'taylor.sablowsky@nrccua.org'</initValue>
-      <name>G_SignUp_Student_Email</name>
+      <name>G_resetPassword_Student_Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Taylor'</initValue>
-      <name>G_SignUp_Student_FirstName</name>
+      <name>G_resetPassword_Student_firstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://staging-api.myoptions.org/v2/auth/reset_password'</initValue>
-      <name>G_API_URL_ResetPassword</name>
+      <name>G_API_URL_resetPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://staging-api.myoptions.org/v2/auth/change_password'</initValue>
-      <name>G_API_URL_ChangePassword</name>
+      <name>G_API_URL_CHANGEPASSWORD</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://staging-api.myoptions.org/v2/auth/verify_email'</initValue>
-      <name>G_API_URL_VerifyEmail</name>
+      <name>G_API_URL_verifyEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Sablowsky'</initValue>
-      <name>G_SignUp_Student_LastName</name>
+      <name>G_resetPassword_Student_lastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -112,46 +92,61 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'tayloraosschool@gmail.com'</initValue>
-      <name>G_AOSuser_Email</name>
+      <name>G_aosUser_Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'59E4FBC9-36DB-47A9-8EC3-A52358C10672'</initValue>
-      <name>G_AOSuser_PasswordToken</name>
+      <name>G_aosUser_passwordToken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Test1234567'</initValue>
-      <name>G_AOSuser_NewPassword</name>
+      <name>G_aosUser_newPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Taylor'</initValue>
-      <name>G_AOSuser_FirstName</name>
+      <name>G_aosUser_firstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'AOS'</initValue>
-      <name>G_AOSuser_LastName</name>
+      <name>G_aosUser_lastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'nrccua.registration+2019@nrccua.org'</initValue>
-      <name>G_SignUp_StudentCorrect_Email</name>
+      <name>G_SignUp_studentCorrect_Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Staging'</initValue>
-      <name>G_SignUp_StudentCorrect_FirstName</name>
+      <name>G_signUp_studentCorrect_firstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'CreatedViaKatalonAPI'</initValue>
-      <name>G_SignUp_StudentCorrect_LastName</name>
+      <name>G_signUp_studentCorrect_lastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
       <name>G_TimeStampEmailAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-api.myoptions.org/v2/advices'</initValue>
+      <name>G_API_URL_getArticles</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-api.myoptions.org/v2/articles/376'</initValue>
+      <name>G_API_URL_getArticlesByIDSlug</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-api.myoptions.org/v2/articles/376/author'</initValue>
+      <name>G_API_URL_getArticleAuthor</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

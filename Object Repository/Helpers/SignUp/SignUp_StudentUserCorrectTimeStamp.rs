@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;${G_TimeStampEmailAddress}\&quot;,\n  \&quot;password\&quot;: \&quot;Test12345\&quot;,\n  \&quot;first_name\&quot;: \&quot;${G_SignUp_StudentCorrect_FirstName}\&quot;,\n  \&quot;last_name\&quot;: \&quot;${G_SignUp_StudentCorrect_LastName}\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;${G_TimeStampEmailAddress}\&quot;,\n  \&quot;password\&quot;: \&quot;Test12345\&quot;,\n  \&quot;first_name\&quot;: \&quot;${G_signUp_studentCorrect_firstName}\&quot;,\n  \&quot;last_name\&quot;: \&quot;${G_signUp_studentCorrect_lastName}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -40,10 +40,10 @@
       <description></description>
       <id>bdba6896-9fd2-45e3-aecc-45efa0fca1d6</id>
       <masked>false</masked>
-      <name>G_SignUp_StudentCorrect_FirstName</name>
+      <name>G_signUp_studentCorrect_firstName</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.G_SignUp_StudentCorrect_Email</defaultValue>
+      <defaultValue>GlobalVariable.G_TimeStampEmailAddress</defaultValue>
       <description></description>
       <id>62bf7636-77e0-44bd-94cb-9e3c4dfff9f5</id>
       <masked>false</masked>
@@ -54,7 +54,7 @@
       <description></description>
       <id>f3390fc0-40ff-4db2-92ff-df2bfc35b7e2</id>
       <masked>false</masked>
-      <name>G_SignUp_StudentCorrect_LastName</name>
+      <name>G_signUp_studentCorrect_lastName</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

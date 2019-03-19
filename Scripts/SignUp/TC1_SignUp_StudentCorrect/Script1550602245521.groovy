@@ -17,6 +17,6 @@ import groovy.time.TimeCategory
 
 
 WS.sendRequestAndVerify(findTestObject('Helpers/SignUp/SignUp_StudentUserCorrect', [('G_API_URL_SIGNUP') : GlobalVariable.G_API_URL_SIGNUP
-            , ('G_SignUp_StudentCorrect_FirstName') : GlobalVariable.G_SignUp_StudentCorrect_FirstName, ('G_SignUp_StudentCorrect_Email') : GlobalVariable.G_SignUp_StudentCorrect_Email
-            , ('G_SignUp_StudentCorrect_LastName') : GlobalVariable.G_SignUp_StudentCorrect_LastName]))
+            , ('G_SignUp_StudentCorrect_FirstName') : GlobalVariable.G_signUp_studentCorrect_firstName, ('G_SignUp_StudentCorrect_Email') : GlobalVariable.G_SignUp_studentCorrect_Email
+            , ('G_SignUp_StudentCorrect_LastName') : GlobalVariable.G_signUp_studentCorrect_lastName]))
 

@@ -7,24 +7,24 @@
       <productName>qTest</productName>
       <properties>
          <entry>
-            <key>id</key>
-            <value>24153824</value>
+            <key>versionId</key>
+            <value>31426574</value>
          </entry>
          <entry>
             <key>name</key>
             <value>TC1_SignUp_StudentCorrect_TimeStamp</value>
          </entry>
          <entry>
-            <key>parentId</key>
-            <value>5403798</value>
-         </entry>
-         <entry>
             <key>pid</key>
             <value>TC-116</value>
          </entry>
          <entry>
-            <key>versionId</key>
-            <value>31426574</value>
+            <key>id</key>
+            <value>24153824</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5403798</value>
          </entry>
       </properties>
       <type>TESTCASE</type>

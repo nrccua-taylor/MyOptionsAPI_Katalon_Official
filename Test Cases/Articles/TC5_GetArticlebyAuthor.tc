@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC5_GetArticlebyAuthor</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>9a64400d-c6ac-4a79-8b9f-6dc55a5fc7cc</testCaseGuid>
-</TestCaseEntity>
