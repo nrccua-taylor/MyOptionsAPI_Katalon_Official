@@ -8,33 +8,35 @@
       <properties>
          <entry>
             <key>0</key>
-            <value>{&quot;parent&quot;:{&quot;parentName&quot;:&quot;MO Sprint 4 20190213-20190306&quot;,&quot;name&quot;:&quot;Sprint 4 API Regression Testing-Dev&quot;,&quot;id&quot;:1370579,&quot;type&quot;:4,&quot;parentId&quot;:344900},
-&quot;default&quot;:true,&quot;name&quot;:&quot;Regression-Dev2&quot;,&quot;pid&quot;:&quot;&quot;,&quot;id&quot;:2349599,&quot;testRuns&quot;:[{&quot;name&quot;:&quot;TC1_LoginAPI_WorkingLogin&quot;,&quot;qTestCaseId&quot;:23955779,&quot;pid&quot;:&quot;TR-283&quot;,&quot;id&quot;:47351291},
-{&quot;name&quot;:&quot;TC2_LoginAPI_IncorrectPassword&quot;,&quot;qTestCaseId&quot;:23955783,&quot;pid&quot;:&quot;TR-284&quot;,&quot;id&quot;:47351292},
-{&quot;name&quot;:&quot;TC3_LoginAPI_IncorrectUsername&quot;,&quot;qTestCaseId&quot;:23955784,&quot;pid&quot;:&quot;TR-285&quot;,&quot;id&quot;:47351293},
-{&quot;name&quot;:&quot;TC_X_BearerTokenRefresh&quot;,&quot;qTestCaseId&quot;:23955781,&quot;pid&quot;:&quot;TR-286&quot;,&quot;id&quot;:47351294},
-{&quot;name&quot;:&quot;TC1_ChecklistAPI_GetChecklist&quot;,&quot;qTestCaseId&quot;:23955785,&quot;pid&quot;:&quot;TR-287&quot;,&quot;id&quot;:47351295},
-{&quot;name&quot;:&quot;TC2_ChecklistAPI_MarkArchived&quot;,&quot;qTestCaseId&quot;:23955786,&quot;pid&quot;:&quot;TR-288&quot;,&quot;id&quot;:47351296},
-{&quot;name&quot;:&quot;TC3_ChecklistAPI_MarkDone&quot;,&quot;qTestCaseId&quot;:23955787,&quot;pid&quot;:&quot;TR-289&quot;,&quot;id&quot;:47351297},
-{&quot;name&quot;:&quot;TC4_ChecklistAPI_MarkToDo&quot;,&quot;qTestCaseId&quot;:23955788,&quot;pid&quot;:&quot;TR-290&quot;,&quot;id&quot;:47351298},
-{&quot;name&quot;:&quot;TC5_ChecklistAPI_DeleteNotes&quot;,&quot;qTestCaseId&quot;:23955789,&quot;pid&quot;:&quot;TR-291&quot;,&quot;id&quot;:47351299},
-{&quot;name&quot;:&quot;TC6_ChecklistAPI_AddNotes&quot;,&quot;qTestCaseId&quot;:23955790,&quot;pid&quot;:&quot;TR-292&quot;,&quot;id&quot;:47351300},
-{&quot;name&quot;:&quot;TC1_ResetPasswordAPI_Correct&quot;,&quot;qTestCaseId&quot;:23956114,&quot;pid&quot;:&quot;TR-293&quot;,&quot;id&quot;:47351301},
-{&quot;name&quot;:&quot;TC2_ResetPasswordAPI_IncorrectFirstName&quot;,&quot;qTestCaseId&quot;:23956115,&quot;pid&quot;:&quot;TR-294&quot;,&quot;id&quot;:47351302},
-{&quot;name&quot;:&quot;TC3_ResetPasswordAPI_IncorrectLastName&quot;,&quot;qTestCaseId&quot;:23956116,&quot;pid&quot;:&quot;TR-295&quot;,&quot;id&quot;:47351303},
-{&quot;name&quot;:&quot;TC4_ResetPasswordAPI_IncorrectEmail&quot;,&quot;qTestCaseId&quot;:23956117,&quot;pid&quot;:&quot;TR-296&quot;,&quot;id&quot;:47351304},
-{&quot;name&quot;:&quot;TC5_ChangePasswordAPI_Correct&quot;,&quot;qTestCaseId&quot;:24024094,&quot;pid&quot;:&quot;TR-297&quot;,&quot;id&quot;:47351305},
-{&quot;name&quot;:&quot;TC6_ChangePasswordAPI_IncorrectToken&quot;,&quot;qTestCaseId&quot;:24024095,&quot;pid&quot;:&quot;TR-298&quot;,&quot;id&quot;:47351306},
-{&quot;name&quot;:&quot;TC7_ChangePasswordAPI_MissingEmail&quot;,&quot;qTestCaseId&quot;:24024096,&quot;pid&quot;:&quot;TR-299&quot;,&quot;id&quot;:47351307},
-{&quot;name&quot;:&quot;TC8_ChangePasswordAPI_MissingFirstName&quot;,&quot;qTestCaseId&quot;:24024097,&quot;pid&quot;:&quot;TR-300&quot;,&quot;id&quot;:47351308},
-{&quot;name&quot;:&quot;TC9_ChangePasswordAPI_MissingLastName&quot;,&quot;qTestCaseId&quot;:24024098,&quot;pid&quot;:&quot;TR-301&quot;,&quot;id&quot;:47351309},
-{&quot;name&quot;:&quot;TC10_ChangePasswordAPI_MissingPassword&quot;,&quot;qTestCaseId&quot;:24026486,&quot;pid&quot;:&quot;TR-302&quot;,&quot;id&quot;:47351314},
-{&quot;name&quot;:&quot;TC11_VerifyEmailAPI_Correct&quot;,&quot;qTestCaseId&quot;:24026487,&quot;pid&quot;:&quot;TR-303&quot;,&quot;id&quot;:47351315},
-{&quot;name&quot;:&quot;TC12_VerifyEmailAPI_IncorrectToken&quot;,&quot;qTestCaseId&quot;:24026503,&quot;pid&quot;:&quot;TR-304&quot;,&quot;id&quot;:47351316},
-{&quot;name&quot;:&quot;TC13_VerifyEmailAPI_MissingEmail&quot;,&quot;qTestCaseId&quot;:24026504,&quot;pid&quot;:&quot;TR-305&quot;,&quot;id&quot;:47351317},
-{&quot;name&quot;:&quot;TC14_VerfiyEmailAPI_MissingFirstName&quot;,&quot;qTestCaseId&quot;:24026505,&quot;pid&quot;:&quot;TR-306&quot;,&quot;id&quot;:47351318},
-{&quot;name&quot;:&quot;TC15_VerifyEmailAPI_MissingLastName&quot;,&quot;qTestCaseId&quot;:24026506,&quot;pid&quot;:&quot;TR-307&quot;,&quot;id&quot;:47351319},
-{&quot;name&quot;:&quot;TC1_SignUp_StudentCorrect&quot;,&quot;qTestCaseId&quot;:24052427,&quot;pid&quot;:&quot;TR-308&quot;,&quot;id&quot;:47351320}]}</value>
+            <value>{&quot;parent&quot;:{&quot;parentName&quot;:&quot;MO Sprint 5 20190306-20190328&quot;,&quot;name&quot;:&quot;Sprint 5 API Testing - Dev2&quot;,&quot;id&quot;:1372779,&quot;type&quot;:4,&quot;parentId&quot;:346363},
+&quot;default&quot;:true,&quot;name&quot;:&quot;Regression-Dev2&quot;,&quot;pid&quot;:&quot;&quot;,&quot;id&quot;:2352867,&quot;testRuns&quot;:[{&quot;name&quot;:&quot;TC1_SignUp_StudentCorrect_TimeStamp&quot;,&quot;qTestCaseId&quot;:24153824,&quot;pid&quot;:&quot;TR-343&quot;,&quot;id&quot;:47421148},
+{&quot;name&quot;:&quot;TC1_LoginAPI_WorkingLogin&quot;,&quot;qTestCaseId&quot;:23955779,&quot;pid&quot;:&quot;TR-344&quot;,&quot;id&quot;:47421149},
+{&quot;name&quot;:&quot;TC2_LoginAPI_IncorrectPassword&quot;,&quot;qTestCaseId&quot;:23955783,&quot;pid&quot;:&quot;TR-345&quot;,&quot;id&quot;:47421150},
+{&quot;name&quot;:&quot;TC3_LoginAPI_IncorrectUsername&quot;,&quot;qTestCaseId&quot;:23955784,&quot;pid&quot;:&quot;TR-346&quot;,&quot;id&quot;:47421151},
+{&quot;name&quot;:&quot;TC1_ChecklistAPI_GetChecklist&quot;,&quot;qTestCaseId&quot;:23955785,&quot;pid&quot;:&quot;TR-347&quot;,&quot;id&quot;:47453161},
+{&quot;name&quot;:&quot;TC2_ChecklistAPI_MarkArchived&quot;,&quot;qTestCaseId&quot;:23955786,&quot;pid&quot;:&quot;TR-348&quot;,&quot;id&quot;:47453162},
+{&quot;name&quot;:&quot;TC3_ChecklistAPI_MarkDone&quot;,&quot;qTestCaseId&quot;:23955787,&quot;pid&quot;:&quot;TR-349&quot;,&quot;id&quot;:47453163},
+{&quot;name&quot;:&quot;TC4_ChecklistAPI_MarkToDo&quot;,&quot;qTestCaseId&quot;:23955788,&quot;pid&quot;:&quot;TR-350&quot;,&quot;id&quot;:47453164},
+{&quot;name&quot;:&quot;TC5_ChecklistAPI_DeleteNotes&quot;,&quot;qTestCaseId&quot;:23955789,&quot;pid&quot;:&quot;TR-351&quot;,&quot;id&quot;:47453165},
+{&quot;name&quot;:&quot;TC6_ChecklistAPI_AddNotes&quot;,&quot;qTestCaseId&quot;:23955790,&quot;pid&quot;:&quot;TR-352&quot;,&quot;id&quot;:47453166},
+{&quot;name&quot;:&quot;TC1_ResetPasswordAPI_Correct&quot;,&quot;qTestCaseId&quot;:23956114,&quot;pid&quot;:&quot;TR-353&quot;,&quot;id&quot;:47453167},
+{&quot;name&quot;:&quot;TC2_ResetPasswordAPI_IncorrectFirstName&quot;,&quot;qTestCaseId&quot;:23956115,&quot;pid&quot;:&quot;TR-354&quot;,&quot;id&quot;:47453168},
+{&quot;name&quot;:&quot;TC3_ResetPasswordAPI_IncorrectLastName&quot;,&quot;qTestCaseId&quot;:23956116,&quot;pid&quot;:&quot;TR-355&quot;,&quot;id&quot;:47453169},
+{&quot;name&quot;:&quot;TC4_ResetPasswordAPI_IncorrectEmail&quot;,&quot;qTestCaseId&quot;:23956117,&quot;pid&quot;:&quot;TR-356&quot;,&quot;id&quot;:47453170},
+{&quot;name&quot;:&quot;TC5_ChangePasswordAPI_Correct&quot;,&quot;qTestCaseId&quot;:24024094,&quot;pid&quot;:&quot;TR-357&quot;,&quot;id&quot;:47453171},
+{&quot;name&quot;:&quot;TC6_ChangePasswordAPI_IncorrectToken&quot;,&quot;qTestCaseId&quot;:24024095,&quot;pid&quot;:&quot;TR-358&quot;,&quot;id&quot;:47453172},
+{&quot;name&quot;:&quot;TC7_ChangePasswordAPI_MissingEmail&quot;,&quot;qTestCaseId&quot;:24024096,&quot;pid&quot;:&quot;TR-359&quot;,&quot;id&quot;:47453173},
+{&quot;name&quot;:&quot;TC8_ChangePasswordAPI_MissingFirstName&quot;,&quot;qTestCaseId&quot;:24024097,&quot;pid&quot;:&quot;TR-360&quot;,&quot;id&quot;:47453174},
+{&quot;name&quot;:&quot;TC9_ChangePasswordAPI_MissingLastName&quot;,&quot;qTestCaseId&quot;:24024098,&quot;pid&quot;:&quot;TR-361&quot;,&quot;id&quot;:47453175},
+{&quot;name&quot;:&quot;TC10_ChangePasswordAPI_MissingPassword&quot;,&quot;qTestCaseId&quot;:24026486,&quot;pid&quot;:&quot;TR-362&quot;,&quot;id&quot;:47453176},
+{&quot;name&quot;:&quot;TC11_VerifyEmailAPI_Correct&quot;,&quot;qTestCaseId&quot;:24026487,&quot;pid&quot;:&quot;TR-363&quot;,&quot;id&quot;:47453177},
+{&quot;name&quot;:&quot;TC12_VerifyEmailAPI_IncorrectToken&quot;,&quot;qTestCaseId&quot;:24026503,&quot;pid&quot;:&quot;TR-364&quot;,&quot;id&quot;:47453178},
+{&quot;name&quot;:&quot;TC13_VerifyEmailAPI_MissingEmail&quot;,&quot;qTestCaseId&quot;:24026504,&quot;pid&quot;:&quot;TR-365&quot;,&quot;id&quot;:47453179},
+{&quot;name&quot;:&quot;TC14_VerfiyEmailAPI_MissingFirstName&quot;,&quot;qTestCaseId&quot;:24026505,&quot;pid&quot;:&quot;TR-366&quot;,&quot;id&quot;:47453180},
+{&quot;name&quot;:&quot;TC15_VerifyEmailAPI_MissingLastName&quot;,&quot;qTestCaseId&quot;:24026506,&quot;pid&quot;:&quot;TR-367&quot;,&quot;id&quot;:47453181},
+{&quot;name&quot;:&quot;TC1_Articles_GetAdvices&quot;,&quot;qTestCaseId&quot;:24178163,&quot;pid&quot;:&quot;TR-368&quot;,&quot;id&quot;:47453182},
+{&quot;name&quot;:&quot;TC2_Articles_GetArticlesbyIDslug&quot;,&quot;qTestCaseId&quot;:24178164,&quot;pid&quot;:&quot;TR-369&quot;,&quot;id&quot;:47453183},
+{&quot;name&quot;:&quot;TC3_Articles_GetArticleAuthor&quot;,&quot;qTestCaseId&quot;:24178165,&quot;pid&quot;:&quot;TR-370&quot;,&quot;id&quot;:47453184}]}</value>
          </entry>
       </properties>
       <type>TESTSUITE</type>
@@ -46,6 +48,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>a06c7623-63a4-45e6-8ae0-f605f9e6f2a8</testSuiteGuid>
+   <testCaseLink>
+      <guid>622c2f08-b74a-4e6e-93cf-f64b29558dc6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SignUp/TC1_SignUp_StudentCorrect_TimeStamp</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>ba193801-48ca-4854-a677-6cbb79f8a98c</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -63,12 +71,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/TC3_LoginAPI_IncorrectUsername</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c79a8221-f581-4131-8ec9-dfae357afc41</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BearerToken/TC_X_BearerTokenRefresh</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e5b08305-3978-4246-9b5e-7c8606b629a5</guid>
@@ -209,9 +211,21 @@
       <testCaseId>Test Cases/UserMgmt/TC15_VerifyEmailAPI_MissingLastName</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c77eb125-c995-4b17-bb05-21c8d0bd4673</guid>
+      <guid>082398b0-49ee-4f7b-817c-0e7769d6e072</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SignUp/TC1_SignUp_StudentCorrect</testCaseId>
+      <testCaseId>Test Cases/Articles/TC1_Articles_GetAdvices</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d2d27781-e019-4421-b328-593431742798</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Articles/TC2_Articles_GetArticlesbyIDslug</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b928e04c-df02-446c-83af-cf84446293d6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Articles/TC3_Articles_GetArticleAuthor</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

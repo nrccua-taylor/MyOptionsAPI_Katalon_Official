@@ -23,22 +23,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+// load test request object which will use token above in Authorization
+RequestObject getUserInfoTestObject = findTestObject('Helpers/Articles/Get_ArticlesByIDSlug', [('G_API_URL_getArticlesByIDSlug') : GlobalVariable.G_API_URL_getArticlesByIDSlug])
 
-//Step 1  response1 will sent Login API with the Global Variable for  MO Username / Password
+// if getUserInfoTestObject HTTP headers have no Authorization item
+getUserInfoTestObject.getHttpHeaderProperties().add(new TestObjectProperty('Authorization', ConditionType.EQUALS, 'Bearer ' + 
+    GlobalVariable.G_BearerToken))
 
-response1 = WS.sendRequestAndVerify(findTestObject('Helpers/Login/Helper_MO_Login', [('G_Login_Username') : GlobalVariable.G_Login_Username_MO
-            , ('G_Login_Password') : GlobalVariable.G_Login_Password_MO, ('G_API_URL_LOGIN') : GlobalVariable.G_API_URL_LOGIN]))
-
-
-//Step 2 the jsonSlurper will look at the response of the Login API called above and save the bearer token
-
-def response2 = new groovy.json.JsonSlurper().parseText(response1.getResponseText())
-
-def bearerToken = response2.bearer_token
-
-//step 3  set the Global Variable G_BearerToken as the bearertoken
-
-GlobalVariable.G_BearerToken = bearerToken
-
-
+// THIRD STEP send the request and run verifications
+WS.sendRequestAndVerify(getUserInfoTestObject)
 

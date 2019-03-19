@@ -13,7 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WS.sendRequestAndVerify(findTestObject('Helpers/UserMgmt/ResetPassword_Correct', [('G_API_URL_ResetPassword') : GlobalVariable.G_API_URL_ResetPassword
-            , ('G_SignUp_Student_LastName') : GlobalVariable.G_SignUp_Student_LastName, ('G_SignUp_Student_FirstName') : GlobalVariable.G_SignUp_Student_FirstName
-            , ('G_SignUp_Student_Email') : GlobalVariable.G_SignUp_Student_Email]))
+WS.sendRequest(findTestObject('Helpers/UserMgmt/ResetPassword_Correct', [('G_API_URL_resetPassword') : GlobalVariable.G_API_URL_resetPassword
+            , ('G_resetPassword_Student_lastName') : GlobalVariable.G_resetPassword_Student_lastName, ('G_resetPassword_Student_firstName') : GlobalVariable.G_resetPassword_Student_firstName
+            , ('G_Login_Username_MO') : GlobalVariable.G_Login_Username_MO]))
+
 

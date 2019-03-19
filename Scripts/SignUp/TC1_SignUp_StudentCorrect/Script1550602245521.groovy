@@ -12,8 +12,11 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import groovy.time.TimeCategory
+
+
 
 WS.sendRequestAndVerify(findTestObject('Helpers/SignUp/SignUp_StudentUserCorrect', [('G_API_URL_SIGNUP') : GlobalVariable.G_API_URL_SIGNUP
-            , ('G_SignUp_StudentCorrect_FirstName') : GlobalVariable.G_SignUp_StudentCorrect_FirstName, ('G_SignUp_StudentCorrect_Email') : GlobalVariable.G_SignUp_StudentCorrect_Email
-            , ('G_SignUp_StudentCorrect_LastName') : GlobalVariable.G_SignUp_StudentCorrect_LastName]))
+            , ('G_SignUp_StudentCorrect_FirstName') : GlobalVariable.G_signUp_studentCorrect_firstName, ('G_SignUp_StudentCorrect_Email') : GlobalVariable.G_SignUp_studentCorrect_Email
+            , ('G_SignUp_StudentCorrect_LastName') : GlobalVariable.G_signUp_studentCorrect_lastName]))
 

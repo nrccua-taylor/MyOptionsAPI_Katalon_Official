@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;token\&quot;: \&quot;${G_AOSuser_PasswordToken}\&quot;,\n  \&quot;password\&quot;: \&quot;${G_AOSuser_NewPassword}\&quot;,\n  \&quot;firstName\&quot;: \&quot;${G_AOSuser_FirstName)\&quot;,\n  \&quot;lastName\&quot;: \&quot;$(G_AOSuser_LastName)\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;token\&quot;: \&quot;${G_aosUser_PasswordToken}\&quot;,\n  \&quot;password\&quot;: \&quot;${G_aosUser_NewPassword}\&quot;,\n  \&quot;firstName\&quot;: \&quot;${G_aosUser_FirstName)\&quot;,\n  \&quot;lastName\&quot;: \&quot;$(G_aosUser_LastName)\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,53 +22,53 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${G_API_URL_ChangePassword}?</restUrl>
+   <restUrl>${G_API_URL_changePassword}?</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>GlobalVariable.G_API_URL_ChangePassword</defaultValue>
+      <defaultValue>GlobalVariable.G_API_URL_changePassword</defaultValue>
       <description></description>
       <id>b82dbbbf-e751-49f5-b0b0-f1132a1f4a61</id>
       <masked>false</masked>
-      <name>G_API_URL_ChangePassword</name>
+      <name>G_API_URL_changePassword</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.G_AOSuser_Email</defaultValue>
+      <defaultValue>GlobalVariable.G_aosUser_Email</defaultValue>
       <description></description>
       <id>1a9db5e2-26c2-4ddd-9478-8fb825fa2cb7</id>
       <masked>false</masked>
-      <name>G_AOSuser_Email</name>
+      <name>G_aosUser_Email</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.G_AOSuser_PasswordToken</defaultValue>
+      <defaultValue>GlobalVariable.G_aosUser_passwordToken</defaultValue>
       <description></description>
       <id>f0859af9-dd68-48d2-be15-54558cb6f6cf</id>
       <masked>false</masked>
-      <name>G_AOSuser_PasswordToken</name>
+      <name>G_aosUser_passwordToken</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.G_AOSuser_NewPassword</defaultValue>
+      <defaultValue>GlobalVariable.G_aosUser_newPassword</defaultValue>
       <description></description>
       <id>b5cdcab2-d884-45f9-90ea-ad1ea339879f</id>
       <masked>false</masked>
-      <name>G_AOSuser_NewPassword</name>
+      <name>G_aosUser_newPassword</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.G_AOSuser_FirstName</defaultValue>
+      <defaultValue>GlobalVariable.G_aosUser_firstName</defaultValue>
       <description></description>
       <id>b359c096-2425-487d-a904-04ac14d8c9d3</id>
       <masked>false</masked>
-      <name>G_AOSuser_FirstName</name>
+      <name>G_aosUser_firstName</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.G_AOSuser_LastName</defaultValue>
+      <defaultValue>GlobalVariable.G_aosUser_lastName</defaultValue>
       <description></description>
       <id>dacbf881-4f26-4660-9e4c-316802274070</id>
       <masked>false</masked>
-      <name>G_AOSuser_LastName</name>
+      <name>G_aosUser_lastName</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
