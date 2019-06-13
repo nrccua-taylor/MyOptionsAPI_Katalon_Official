@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MO001_MenteeA_PendingCounselor_200ok</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>versionId</key>
+            <value>33137705</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>MO001_MenteeA_PendingCounselor_200ok</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-358</value>
+         </entry>
+         <entry>
+            <key>id</key>
+            <value>25416626</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5661068</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>af71b775-1820-41d4-9567-8122d25951dd</testCaseGuid>
+</TestCaseEntity>

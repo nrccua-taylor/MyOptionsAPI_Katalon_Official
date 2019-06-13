@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MO004_SignUpA_BlankFirstNameStudent_400</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>25624690</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>MO004_SignUpA_BlankFirstNameStudent_400</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5403798</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-374</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>33369815</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>beed4df8-e038-4719-b6de-90b0d0a3bc34</testCaseGuid>
+</TestCaseEntity>

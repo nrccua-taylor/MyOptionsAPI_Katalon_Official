@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FolderEntity>
+   <description>folder</description>
+   <name>MOM Test Suites</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>87127</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>MyOptions-Mentors</value>
+         </entry>
+      </properties>
+      <type>FOLDER</type>
+   </integratedEntity>
+   <folderType>TESTSUITE</folderType>
+</FolderEntity>

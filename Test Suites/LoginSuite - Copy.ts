@@ -25,18 +25,18 @@
       <guid>ca5d94f5-a958-44c0-98bb-b5e2af573e33</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC1_LoginAPI_WorkingLogin</testCaseId>
+      <testCaseId>Test Cases/Login/MO001_LoginA_ValidLogin_200ok</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>af7dd3f0-090d-4f82-a9f8-aa344d187d26</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC2_LoginAPI_IncorrectPassword</testCaseId>
+      <testCaseId>Test Cases/Login/MO002_LoginA_InvalidPassword_401</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dc6b957d-367b-4b06-a7b5-624feeb020c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC3_LoginAPI_IncorrectUsername</testCaseId>
+      <testCaseId>Test Cases/Login/MO003_LoginA_InvalidUsername_401</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
