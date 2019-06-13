@@ -73,9 +73,65 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 
 
-
+//verify the response code
 WS.verifyResponseStatusCode(response, 200)
 
-assertThat(response.getStatusCode()).isEqualTo(200)</verificationScript>
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+
+
+
+//verify the response schema
+assertThat(response.getResponseText()).contains('id')
+assertThat(response.getResponseText()).contains('student_key')
+assertThat(response.getResponseText()).contains('created_at')
+assertThat(response.getResponseText()).contains('updated_at')
+WS.verifyElementPropertyValue(response, 'username', GlobalVariable.G_TimeStampEmailAddress)
+WS.verifyElementPropertyValue(response, 'email', GlobalVariable.G_TimeStampEmailAddress)
+assertThat(response.getResponseText()).contains('school_id')
+assertThat(response.getResponseText()).contains('email_verified_at')
+assertThat(response.getResponseText()).contains('is_school_verified')
+assertThat(response.getResponseText()).contains('update_increment')
+assertThat(response.getResponseText()).contains('facebook_id')
+assertThat(response.getResponseText()).contains('twitter_id')
+assertThat(response.getResponseText()).contains('is_profile_public')
+assertThat(response.getResponseText()).contains('tos_agreed_at')
+assertThat(response.getResponseText()).contains('gpa')
+assertThat(response.getResponseText()).contains('admittedly_score')
+assertThat(response.getResponseText()).contains('is_tutorial_completed')
+assertThat(response.getResponseText()).contains('bearer_token')
+assertThat(response.getResponseText()).contains('tutorial_step')
+assertThat(response.getResponseText()).contains('preferences')
+assertThat(response.getResponseText()).contains('notification_method')
+assertThat(response.getResponseText()).contains('email_feature_updates')
+assertThat(response.getResponseText()).contains('gpa_scale')
+assertThat(response.getResponseText()).contains('personal_color')
+assertThat(response.getResponseText()).contains('profile')
+assertThat(response.getResponseText()).contains('address_one')
+assertThat(response.getResponseText()).contains('address_two')
+assertThat(response.getResponseText()).contains('first_name')
+assertThat(response.getResponseText()).contains('last_name')
+//WS.verifyElementPropertyValue(response, 'first_name', GlobalVariable.G_signUp_studentCorrect_firstName)
+//WS.verifyElementPropertyValue(response, 'last_name', GlobalVariable.G_signUp_studentCorrect_lastName)
+assertThat(response.getResponseText()).contains('is_valid_address')
+assertThat(response.getResponseText()).contains('user_type')
+assertThat(response.getResponseText()).contains('is_survey_complete')
+assertThat(response.getResponseText()).contains('profile_completion')
+assertThat(response.getResponseText()).contains('personal_story')
+assertThat(response.getResponseText()).contains('subscription_expires_at')
+assertThat(response.getResponseText()).contains('referred_by_code')
+assertThat(response.getResponseText()).contains('date_of_birth')
+assertThat(response.getResponseText()).contains('from_mo')
+assertThat(response.getResponseText()).contains('old_password_format')
+
+
+
+
+
+
+
+
+
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

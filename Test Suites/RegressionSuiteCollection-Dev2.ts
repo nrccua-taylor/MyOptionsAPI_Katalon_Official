@@ -4,7 +4,7 @@
    <name>RegressionSuiteCollection-Dev2</name>
    <tag></tag>
    <executionMode>SEQUENTIAL</executionMode>
-   <maxConcurrentInstances>8</maxConcurrentInstances>
+   <maxConcurrentInstances>9</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -13,7 +13,7 @@
             <runConfigurationId>Web Service</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/LoginSuite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/NewUserSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -22,16 +22,7 @@
             <runConfigurationId>Web Service</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/BearerToken</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Service</groupName>
-            <profileName>Dev2</profileName>
-            <runConfigurationId>Web Service</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Checklist</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Regression-Dev2</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

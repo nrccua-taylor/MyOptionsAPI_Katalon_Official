@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FolderEntity>
+   <description></description>
+   <name>School_Details</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>5501588</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>School_Details</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5501587</value>
+         </entry>
+      </properties>
+      <type>FOLDER</type>
+   </integratedEntity>
+   <folderType>TESTCASE</folderType>
+</FolderEntity>

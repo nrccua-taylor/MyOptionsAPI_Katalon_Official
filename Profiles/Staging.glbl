@@ -86,7 +86,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://staging-api.myoptions.org/v2/users/179217/schools'</initValue>
+      <initValue>'https://staging-api.myoptions.org/v2/schools'</initValue>
       <name>G_API_URL_USER_SCHOOL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -148,5 +148,50 @@
       <description></description>
       <initValue>'https://staging-api.myoptions.org/v2/articles/376/author'</initValue>
       <name>G_API_URL_getArticleAuthor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_BearerToken_TS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_studentID_TS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-api.myoptions.org/v2/'</initValue>
+      <name>G_ENVIRONMENT_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'checklist_items/'</initValue>
+      <name>G_GetChecklist_URL_ENDPOINT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test_scores'</initValue>
+      <name>G_GetTestScores_URL_ENDPOINT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_studentID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-api.myoptions.org/high_schools'</initValue>
+      <name>G_API_URL_HighSchools</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-api.myoptions.org/questions'</initValue>
+      <name>G_API_URL_Questions</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_TimeStampMentorEmailAddress</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
