@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MO001_UserPreferenceA_ValidRequest_200ok</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>25378557</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>MO001_UserPreferenceA_ValidRequest_200ok</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5404667</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-331</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>33097361</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>47eda432-266e-4973-91e2-e4fc1f705d39</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20190911_132025</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>0</key>
+            <value>{'name':'MO001_LoginA_ValidLogin_200ok','attachmentIncluded':true,'id':58446264}</value>
+         </entry>
+      </properties>
+      <type>REPORT</type>
+   </integratedEntity>
+   <displayName>20190911_132025</displayName>
+</ReportEntity>

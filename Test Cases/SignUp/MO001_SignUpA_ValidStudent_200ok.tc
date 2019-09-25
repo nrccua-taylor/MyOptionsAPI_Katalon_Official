@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MO001_SignUpA_ValidStudent_200ok</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>versionId</key>
+            <value>33097289</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>MO001_SignUpA_ValidStudent_200ok</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-330</value>
+         </entry>
+         <entry>
+            <key>id</key>
+            <value>25378536</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5403798</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>f71cbe0f-f1f4-4410-9e62-11faa6adc345</testCaseGuid>
+</TestCaseEntity>

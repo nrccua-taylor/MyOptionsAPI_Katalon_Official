@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20190911_133119</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>2</key>
+            <value>{'name':'MO003_LoginA_InvalidUsername_401','attachmentIncluded':true,'id':58446765}</value>
+         </entry>
+         <entry>
+            <key>1</key>
+            <value>{'name':'MO002_LoginA_InvalidPassword_401','attachmentIncluded':true,'id':58446766}</value>
+         </entry>
+      </properties>
+      <type>REPORT</type>
+   </integratedEntity>
+   <displayName>20190911_133119</displayName>
+</ReportEntity>

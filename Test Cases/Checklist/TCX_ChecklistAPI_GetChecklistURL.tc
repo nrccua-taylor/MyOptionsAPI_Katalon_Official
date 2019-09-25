@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCX_ChecklistAPI_GetChecklistURL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80aef6d9-dcc5-4427-85d7-64e56a87c8fd</testCaseGuid>
+   <variable>
+      <defaultValue>'staging-api.myoptions.org'</defaultValue>
+      <description></description>
+      <id>30ce2223-2186-4d97-830c-74598b0a7d65</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cf26445f-3bdf-4e60-a26a-0f88c579de64</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

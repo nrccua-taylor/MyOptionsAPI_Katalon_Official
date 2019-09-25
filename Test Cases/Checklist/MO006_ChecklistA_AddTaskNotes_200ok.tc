@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MO006_ChecklistA_AddTaskNotes_200ok</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>25378584</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>MO006_ChecklistA_AddTaskNotes_200ok</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5404665</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-340</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>33097397</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>daa8fd52-5823-4a29-a6b1-b137f7c42b26</testCaseGuid>
+</TestCaseEntity>
